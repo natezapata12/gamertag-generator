@@ -21,4 +21,7 @@ function mousePressed(){
   background(220)
   randomIndex = int(random(name1.length));
   text(name1[randomIndex], 50, 50);
+
+  randomIndex = int(random(name2.length));
+  text(name2[randomIndex], 108, 50);
 }
