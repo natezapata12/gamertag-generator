@@ -43,6 +43,11 @@ function draw() {
 
 function mousePressed(){
 
+  if (mouseX > 420  && mouseX < 500 
+    && mouseY > 500 && mouseY < 700) 
+{
+    let buttonA = dist(mouseX, mouseY, 260, 100);
+
   background(220)
   image(BGimg, 0, 0);
   textSize(18);
@@ -74,5 +79,6 @@ function mousePressed(){
   imageCounter = 0;
 }
 
+}
 
 }
